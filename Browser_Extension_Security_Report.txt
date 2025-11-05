@@ -1,0 +1,116 @@
+# Task 7 – Identify and Remove Suspicious Browser Extensions
+
+## 🎯 Objective
+To learn how to identify potentially harmful or suspicious browser extensions, review their permissions and publishers, and safely remove them to improve browser security and performance.
+
+---
+
+## 🧠 Tools Used
+- **Browser:** Google Chrome  
+- **Access Path:** chrome://extensions/  
+- **Research Platforms:** Google Search, Chrome Web Store reviews
+
+---
+
+## 🪜 Manual Procedure
+
+### Step 1 – Open Extension Manager
+- Navigated to **chrome://extensions/** from the Chrome address bar.  
+- Opened the **Extensions** page to review all installed add-ons.
+
+---
+
+### Step 2 – Reviewed Installed Extensions
+Reviewed details of all installed extensions, including:
+- **Name**
+- **Publisher/Developer**
+- **Description**
+- **Permissions requested**
+
+Example:
+
+| Extension Name | Developer | Permissions | Description |
+|----------------|------------|--------------|--------------|
+| AdBlock | BetaFish | Access to all sites | Blocks ads on web pages |
+| Grammarly | Grammarly Inc. | Access to text input | Grammar and spell-check tool |
+| PDF Converter Pro | Unknown | Read/change all data on all websites | Converts web pages to PDFs |
+| Dark Reader | Alexander Shutau | Change website appearance | Enables dark mode for websites |
+
+---
+
+### Step 3 – Evaluated Each Extension
+Red flags checked:
+- Unknown or suspicious developers  
+- Overly broad permissions (e.g., *Read and change data on all sites*)  
+- Low user ratings or poor reviews  
+- Strange browser behavior (pop-ups, ads, slow performance)
+
+Result:
+- **“PDF Converter Pro”** had unknown developer and excessive permissions → Marked as **suspicious**.
+
+---
+
+### Step 4 – Researched Suspicious Extensions
+- Searched *“PDF Converter Pro Chrome extension malware”* on Google.  
+- Found multiple reports indicating it could inject ads and collect browsing data.  
+- Confirmed poor reviews (2.1/5) on the Chrome Web Store.
+
+---
+
+### Step 5 – Removed/Disabled Suspicious Extensions
+- Removed **PDF Converter Pro** using the **Remove** button in the Extensions menu.  
+- Restarted Chrome browser.  
+
+Command executed (through GUI):  
+`chrome://extensions → Remove PDF Converter Pro`
+
+---
+
+### Step 6 – Verified Browser Performance
+- Reopened Chrome after removal.  
+- Observed faster page loading and fewer unwanted redirects.  
+- Browser stability improved.
+
+---
+
+## 🧩 Additional Research: How Malicious Extensions Harm Users
+- **Data Theft:** Can read keystrokes or access login credentials.  
+- **Ad Injection:** Displays unwanted ads or redirects.  
+- **Tracking:** Collects browsing history for sale or misuse.  
+- **Browser Hijacking:** Changes homepage or search engine settings.  
+- **Phishing:** Redirects to fake login pages to steal credentials.
+
+---
+
+## 🧠 Best Practices for Safe Extension Use
+- Install only from trusted sources like the **Chrome Web Store** or **Mozilla Add-ons**.  
+- Always **check permissions** before installation.  
+- Read **user reviews and ratings**.  
+- **Limit the number of installed extensions**.  
+- Keep extensions **updated regularly**.  
+- Remove unused or suspicious extensions immediately.
+
+---
+
+## 🔍 Summary of Actions Taken
+
+| Action | Description | Result |
+|--------|--------------|---------|
+| Reviewed extensions | Checked permissions and publishers | 5 extensions reviewed |
+| Identified suspicious one | PDF Converter Pro | Marked as unsafe |
+| Removed suspicious extension | Uninstalled via Chrome Extensions Manager | Removed successfully |
+| Verified performance | Tested speed and stability | Browser improved |
+
+---
+
+## 🏁 Outcome
+- Gained awareness of **browser extension security**.  
+- Identified and removed a **potentially unsafe extension**.  
+- Understood how **permissions** and **developer authenticity** affect browser safety.  
+- Learned to evaluate and maintain secure browsing habits.
+
+---
+
+## 🧩 Key Learnings
+- Extensions with **unnecessary permissions** can compromise data privacy.  
+- Regularly reviewing and updating extensions reduces a
